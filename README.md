@@ -1,4 +1,4 @@
-# scRNA-analysis-pipline
+# scRNA-cellbender-pipline
 This document provides essential information on generating filtered count matrix files for Seurat or Scanpy from raw sequencing data. The pipeline begins with NCBI raw data, followed by fasterq-dump, renaming, cellranger count, and concludes with CellBender.
 
 Due to the similarity of all processes, I will provide a detailed walkthrough using the E11_1 dataset as an example.
