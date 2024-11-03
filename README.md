@@ -151,6 +151,10 @@ cellbender remove-background --cuda --input ./raw_feature_bc_matrix.h5 --output 
 
 ### cellbender
 
+``` zsh
+cellbender remove-background --cuda --input ./raw_feature_bc_matrix.h5 --output ./20k/E13_1_ambient_removed.h5 --expected-cells 10000 --total-droplets-included 20000
+```
+
 
 ## E14
 
