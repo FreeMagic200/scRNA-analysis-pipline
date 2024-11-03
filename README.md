@@ -18,6 +18,7 @@ for i in SRR118315**; do fasterq-dump ./$i -e 18 -m 55000MB -b 3000MB -v -p; don
 ### data info
 
 Library1: SRR11831500 and SRR11831501
+
 Library2: SRR11831502 and SRR11831503
 
 | Run                                                          |  # of Spots | # of Bases |   Size |  Published |
@@ -156,6 +157,7 @@ cellbender remove-background --cuda --input ./raw_feature_bc_matrix.h5 --output 
 ### data info
 
 Library1: SRR11831504 - SRR11831513
+
 Library2: SRR11831514 and SRR11831523
 
 |      | [Run](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX8382016&o=acc_s%3Aa#) | [Bases](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX8382016&o=acc_s%3Aa#) | [Bytes](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX8382016&o=acc_s%3Aa#) | [create_date](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SRX8382016&o=acc_s%3Aa#) |
@@ -196,6 +198,7 @@ cellbender remove-background --cuda --input ./raw_feature_bc_matrix.h5 --output 
 > notice: NOT published yet.
 
 Library1: Unknown_BU571-002X0001
+
 Library2: Unknown_BU571-003X0002
 
 | clientId  | SampleName<br>         |
@@ -255,6 +258,7 @@ cellbender remove-background --cuda --input ./raw_feature_bc_matrix.h5 --output 
 ## P0
 
 Library1: SRR11831524 - SRR11831527
+
 Library2: SRR11831528 and SRR11831531
 
 ### data info
